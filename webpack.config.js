@@ -11,6 +11,9 @@ module.exports = {
   output: {
     filename: './js/main.js',
   },
+  resolve: {
+    extensions: ['.ts', '.tsx', '.js', '.jsx'],
+  },
   mode: 'production',
   optimization: {
     minimizer: [

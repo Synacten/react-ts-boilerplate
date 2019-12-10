@@ -8,7 +8,9 @@ interface AppProps {
 export const App: React.FC<AppProps> = ({ hello }) => {
   console.log(hello);
   return (
-    <div>{hello}</div>
+    <div>
+      {hello}
+    </div>
   );
 };
 
